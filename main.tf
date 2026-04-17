@@ -52,3 +52,4 @@ resource "aws_db_instance" "insecure_db" {
   storage_encrypted = false   # 🚨 NO ENCRYPTION
   publicly_accessible = true  # 🚨 PUBLIC ACCESS
 }
+#checking IAC scan test 1
